@@ -240,10 +240,10 @@ class _HomeState extends State<Home> with TickerProviderStateMixin {
                     : Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    buildStatItem(23000, "Clients"),
+                    buildStatItem(23000, "persons"),
                     buildStatItem(28000, "Companies formed"),
                     buildStatItem(150, "Countries served"),
-                    buildStatItem(6, "Years of experience"),
+                    buildStatItem(6, "months of experience"),
                   ],
                 ),
               ),
